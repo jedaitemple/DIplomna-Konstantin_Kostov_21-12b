@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableRight="@drawable/arrow"
+    android:orientation="horizontal"
+    android:drawableLeft="@drawable/ic_username"
+    android:padding="20dp"
+    android:text="TextView"
+    android:textColor="@color/main_color_gray_dk"
+    android:textSize="38sp"
+    android:id="@+id/imageView1" />
