@@ -2,7 +2,7 @@ package kosio.myapplication.model;
 
 import java.util.Date;
 
-import com.chatt.demo.UserList;
+import kosio.myapplication.UserList;
 
 /**
  * The Class Conversation is a Java Bean class that represents a single chat

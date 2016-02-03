@@ -5,8 +5,8 @@ import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import com.chatt.demo.R;
-import com.chatt.demo.utils.TouchEffect;
+import kosio.myapplication.R;
+import kosio.myapplication.utils.TouchEffect;
 
 
 public class CustomActivity extends FragmentActivity implements OnClickListener
