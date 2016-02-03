@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+
+android:background="@color/black">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="5dp" >
+
+    <Button
+        android:id="@+id/btnSelectPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Photo" />
+
+</LinearLayout>
+
+
+<ListView
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:divider="@color/white"
+    android:dividerHeight="@dimen/pad_5dp"
+    android:fastScrollEnabled="true"
+    android:paddingBottom="@dimen/pad_10dp"
+    android:paddingTop="@dimen/pad_10dp"
+    tools:listitem="@layout/chat_item_rcv" >
+</ListView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_light"
+    android:gravity="center_vertical"
+    android:padding="@dimen/pad_5dp"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    android:layout_weight="0.12">
+
+
+    <EditText
+        android:id="@+id/txt"
+        style="@style/edittext_msg"
+        android:layout_width="230dp"
+        android:layout_height="32dp"
+        android:hint="@string/type_msg">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSend"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_send" />
+
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="61dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:text="enter" android:inputType="text" />
+    <Button
+        android:id="@+id/btnuser"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_send" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="hirt"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+</LinearLayout>
